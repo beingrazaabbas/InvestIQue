@@ -1,0 +1,80 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .text-3xl {
+    font-size: 3rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-primary {
+    color: #007bff;
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+ 
+  
+  .my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .mt-6 {
+    margin-top: 1.5rem;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-footer {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .lg\:justify-items-center {
+    justify-items: center;
+  }
+  
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+  
+  .lg\:gap-0 {
+    gap: 0;
+  }
+  

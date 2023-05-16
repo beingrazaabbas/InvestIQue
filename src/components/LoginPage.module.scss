@@ -1,0 +1,94 @@
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .leftSection {
+      width: 30%;
+      height: 100%;
+      background-image: url("../../public/trade.jpg");
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      
+    }
+    
+    .rightSection {
+      width: 70%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    
+    .logo {
+      width: 200px;
+      height: auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    h2 {
+      text-align: center;
+      color: #333333;
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+    
+      label {
+        color: #333333;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+    
+      input {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+      }
+    
+      button[type="submit"] {
+        background-color: #0023ab;
+        color: #ffffff;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    
+        &:hover {
+          background-color: #40a9ff;
+        }
+      }
+    }
+    
+    .register {
+      margin-top: 2rem;
+      text-align: center;
+    
+      span {
+        font-size: 0.8rem;
+        color: #666666;
+      }
+    
+      .registerButton {
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+      }
+    }
+    

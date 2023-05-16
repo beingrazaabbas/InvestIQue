@@ -1,0 +1,191 @@
+.homePage {
+  .hero {
+    background: url("../public/bg.png") center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .heroCol {
+      width: 60%;
+      padding-left: 10rem;
+      padding-top: 5rem;
+
+      .heroBtnGroup {
+        padding-top: 5rem;
+        float: left;
+        
+        .heroBtn {
+          margin-right: 2rem;
+          width: 10rem;
+          height: 3rem;
+          font-weight: bold;
+          text-transform: uppercase;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #40a9ff;
+          }
+        }
+      }
+
+      h1 {
+        font-size: 2rem;
+        color: #ffffff;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        text-align: left;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      p {
+        font-size: 4rem;
+        color: #ffffff;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-align: left;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+
+  .heading {
+    margin-top: 10rem;
+
+    h2 {
+      margin: auto;
+      text-align: center;
+      color: #0023ab;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      background-color: #0023ab;
+      width: 10%;
+      min-width: 2rem;
+      height: 1.5px;
+      margin: 1rem auto;
+    }
+  }
+
+  .cardController {
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+    :global {
+      .ant-card-body {
+        width: 25rem !important;
+        border-radius: 6px;
+        background-color: #f2f2f2;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
+        img {
+          margin-top: 2rem;
+        }
+
+        p {
+          margin: 0;
+         
+        }
+
+        h3 {
+          margin-bottom: 1rem;
+          color: #333333;
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+      }
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .algorithmsSection {
+    background-color: #0023ab;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+    margin-bottom: 4rem;
+    margin-bottom: 5rem;
+
+    .algorithm {
+      text-align: center;
+      color: #ffffff;
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 1rem;
+        
+     
+        h3 {
+          margin-top: 0;
+          margin-bottom: 0.5rem;
+          color: #333333;
+          font-size: 2rem;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        
+        hr {
+          width: 100%;
+          border: none;
+          border-top: 1px solid #333333;
+          margin-top: 0;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    
+    .squadHeading {
+    margin-top: 8rem;
+    
+    h2 {
+    margin: auto;
+    text-align: center;
+    color: #0023ab;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+    
+    .squadDivider {
+    background-color: #0023ab;
+    width: 10%;
+    min-width: 2rem;
+    height: 1.5px;
+    margin: 1rem auto;
+    }
+    }
+    
+    .squadCardController {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    }
+  }}
+  p{
+    font-size: 13px;
+  }
+  

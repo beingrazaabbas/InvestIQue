@@ -1,0 +1,24 @@
+.navContainer {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #0023AB;
+  margin: 0 4rem;
+  .navMenu {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLink {
+    color: #0023AB;
+    padding: 0 2rem;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}

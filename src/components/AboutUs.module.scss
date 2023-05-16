@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-family: 'Montserrat', sans-serif;
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  h1 {
+    color: $primary-color;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    .textContainer {
+      p {
+        color: $secondary-color;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 15px;
+      }
+    }
+
+    .imageContainer {
+      img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+
+.navbar {
+  background-color: $primary-color;
+  padding: 20px;
+
+  // Add your custom navbar styles here
+}
+
+// Add any additional custom styles you want for your component
