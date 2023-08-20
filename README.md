@@ -41,3 +41,8 @@ To run InvestIQue locally on your machine, follow these steps:
 3.  Run `npm install` to install all dependencies.
 4.  Run `npm start` to start the development server.
 5.  Open a web browser and navigate to `http://localhost:3000/` to view the InvestIQue application.
+
+
+ Model Link
+----------------------
+https://colab.research.google.com/drive/1l0hGQ-07GdV7SjVMIHGXftZKKikPzxu9?usp=sharing
