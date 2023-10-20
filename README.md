@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+InvestIQue
+==========
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+InvestIQue is a personalized investment recommendation system that uses data-driven insights to help investors make informed decisions and achieve better returns. The project combines machine learning algorithms, data mining techniques, and a MERN (MongoDB, Express.js, React.js, Node.js) stack web application to provide a comprehensive solution for investors.
+![Screenshot 2023-04-10 183704](https://user-images.githubusercontent.com/86911625/230908993-ccfb6689-6353-43eb-b740-4c61c65b7794.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+Features
+--------
 
-### `npm start`
+The InvestIQue web application includes the following features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   Login and registration functionality to securely access user data.
+-   Dashboard displaying general investment information and financials with visual graphs.
+-   Stock prediction feature using machine learning algorithms for personalized recommendations.
+-   Stock comparison feature to compare multiple stocks side by side.
+-   User profile section for personalized information and settings.
+-   About Us section to learn more about the team and project.
+![Screenshot 2023-04-10 183746](https://user-images.githubusercontent.com/86911625/230909210-e315dda1-5803-423c-baaf-260f22b639df.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Tech Stack
+----------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following technologies were used in the development of InvestIQue:
 
-### `npm run build`
+-   MongoDB for the database.
+-   Express.js for the web application framework.
+-   React.js for building the user interface.
+-   Node.js for server-side development.
+-   RapidMiner and Talend for data mining and machine learning.
+-   Git for version control and collaboration.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation and Usage
+----------------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run InvestIQue locally on your machine, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Clone the repository to your local machine.
+2.  Navigate to the root directory of the project in your terminal or command prompt.
+3.  Run `npm install` to install all dependencies.
+4.  Run `npm start` to start the development server.
+5.  Open a web browser and navigate to `http://localhost:3000/` to view the InvestIQue application.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ Model Link
+----------------------
+https://colab.research.google.com/drive/1l0hGQ-07GdV7SjVMIHGXftZKKikPzxu9?usp=sharing
